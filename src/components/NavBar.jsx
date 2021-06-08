@@ -8,7 +8,7 @@ const NavBar = () => {
       <nav className="navbar navbar-dark navbar-expand-lg navbar-light bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Navbar
+            E-commerce
           </a>
           <button
             className="navbar-toggler"
@@ -30,12 +30,12 @@ const NavBar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Features
+                  Productos
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Pricing
+                  carrito
                 </a>
               </li>
               <li className="nav-item dropdown">
@@ -47,7 +47,7 @@ const NavBar = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown link
+                  ¿Quienes somos?
                 </a>
                 <ul
                   className="dropdown-menu"

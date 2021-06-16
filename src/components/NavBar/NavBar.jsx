@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
 import CartWidget from "../CartWidget/CartWidget";
+import ItemListContainer from "../ItemListContainer/ItemListContainer";
 import "./NavBar.css";
 
-const NavBar = () => {
+const NavBar = ({ cart }) => {
   return (
     <Fragment>
       <nav className="navbar navbar-dark navbar-expand-lg navbar-light bg-dark">
@@ -72,7 +73,11 @@ const NavBar = () => {
               </li>
             </ul>
             <div className="botoncarrito">
-              <CartWidget />
+              {/* <button type="button" className="btn btn-danger cartwidget">
+                cart
+                <span className="badge bg-dark contadorWidget">{contador}</span>
+              </button> */}
+              <CartWidget cart={cart} />
             </div>
           </div>
         </div>

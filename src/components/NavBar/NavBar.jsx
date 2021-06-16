@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
+import CartWidget from "../CartWidget/CartWidget";
 import "./NavBar.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const NavBar = () => {
   return (
@@ -71,6 +71,9 @@ const NavBar = () => {
                 </ul>
               </li>
             </ul>
+            <div className="botoncarrito">
+              <CartWidget />
+            </div>
           </div>
         </div>
       </nav>

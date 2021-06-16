@@ -1,0 +1,66 @@
+.cardProductos {
+  display: flex;
+  flex-direction: row;
+  width: 330px;
+  height: 130px;
+  margin: 75px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  position: relative;
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.fotoProducto {
+  z-index: 1;
+  position: absolute;
+  width: 100px;
+  bottom: 0px;
+  top: 5ps;
+}
+.contenedorDescripcion {
+  margin: auto;
+  margin-left: 100px;
+}
+.tituloProducto {
+  color: white;
+}
+.precioProducto {
+  color: white;
+  font-size: larger;
+}
+.apartadoCantidad {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.botonMas {
+  width: 30px;
+  height: 30px;
+  font-size: 10px;
+}
+
+.botonMenos {
+  width: 30px;
+  height: 30px;
+  font-size: 10px;
+}
+
+.cantidad {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: #141e30 !important;
+}

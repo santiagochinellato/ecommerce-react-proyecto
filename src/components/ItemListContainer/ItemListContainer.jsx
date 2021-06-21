@@ -1,7 +1,4 @@
-import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
-import { Fragment } from "react";
+import React, { useState, useEffect } from "react";
 import "../ItemListContainer/ItemListContainer.css";
 
 const productos = [
@@ -74,8 +71,14 @@ const productos = [
 ];
 
 const ItemListContainer = ({ cart, setCart }) => {
+  const deleteItem = (id) => {
+    let resultado = cart.filter((item) => {
+      return item.id !== id;
+    });
+    setCart(resultado);
+  };
   return (
-    <Fragment>
+    <>
       {productos.map((producto) => (
         <div className=" col-md-3 cardProductos" key={producto.id}>
           <img className="fotoProducto" src={producto.imagen} alt="" />
@@ -103,16 +106,7 @@ const ItemListContainer = ({ cart, setCart }) => {
               <button
                 type="button"
                 class="btn btn-danger botonMenos"
-                onClick={() => {
-                  setCart([
-                    ...cart,
-                    {
-                      id: producto.id,
-                      name: producto.nombre,
-                      price: producto.precio,
-                    },
-                  ]);
-                }}
+                onClick={() => deleteItem(producto.id)}
               >
                 -
               </button>
@@ -140,7 +134,7 @@ const ItemListContainer = ({ cart, setCart }) => {
           </div>
         </div>
       </div>
-    </Fragment>
+    </>
   );
 };
 

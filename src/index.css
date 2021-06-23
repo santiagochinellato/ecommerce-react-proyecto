@@ -71,12 +71,16 @@ code {
   width: 30px;
   height: 30px;
   font-size: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
 }
 
 .botonMenos {
   width: 30px;
   height: 30px;
   font-size: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
 }
 
 .cantidad {
@@ -85,4 +89,6 @@ code {
   text-align: center;
   font-size: 20px;
   color: #141e30 !important;
+  border-radius: 20%;
+  border: none;
 }

@@ -11,7 +11,7 @@ function App() {
         <NavBar cart={cart} />
       </header>
       <section className="container-fluid row seccionGaleria">
-        <ItemListContainer cart={cart} setCart={setCart} />
+        <ItemListContainer />
       </section>
     </>
   );

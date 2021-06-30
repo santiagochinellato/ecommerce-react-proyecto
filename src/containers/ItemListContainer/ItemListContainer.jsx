@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "../ItemListContainer/ItemListContainer.css";
-import ItemList from "../ItemList/ItemList";
+import "./ItemListContainer.css";
+import ItemList from "../../components/ItemList/ItemList";
 
 function ItemListContainer() {
   const [productos, setProductos] = useState([]);

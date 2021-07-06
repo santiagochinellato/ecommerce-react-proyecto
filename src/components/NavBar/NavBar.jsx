@@ -1,13 +1,14 @@
 import React, { Fragment } from "react";
 import CartWidget from "../CartWidget/CartWidget";
 import "./NavBar.css";
+import { Link } from "react-router-dom";
 
 const NavBar = ({ cart }) => {
   return (
     <Fragment>
       <nav className="navbar navbar-dark navbar-expand-lg navbar-light bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand">E-commerce</a>
+          <a className="navbar-brand"></a>
           <button
             className="navbar-toggler"
             type="button"
@@ -22,40 +23,19 @@ const NavBar = ({ cart }) => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page">
-                  Home
-                </a>
+                <Link to={"/"}>
+                  <a className="nav-link active" aria-current="page">
+                    Inicio
+                  </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link">Productos</a>
+                <Link to={"/productos"}>
+                  <a className="nav-link">Productos</a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link">carrito</a>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  ¿Quienes somos?
-                </a>
-                <ul
-                  className="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li>
-                    <a className="dropdown-item">Action</a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item">Another action</a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item">Something else here</a>
-                  </li>
-                </ul>
               </li>
             </ul>
             <div className="botoncarrito">

@@ -1,15 +1,22 @@
 import React from "react";
+import { ItemCount } from "../ItemCount/ItemCount";
 import "./ItemDetail.css";
 
-const ItemDetail = (props) => {
+const ItemDetail = ({ itemSelect }) => {
   return (
     <>
       <div className="card">
-        <img className="imagen" src={props.item.book_image} alt="" />
+        <img className="imagen" src={itemSelect.imagen} />
         <div className="contenedor-info">
-          <h3 className="titulo">{props.item.title}</h3>
-          <p className="descripcion">{props.item.description}</p>
-          <h5 className="precio">{props.item.price}</h5>
+          <h3 className="titulo">{itemSelect.nombre}</h3>
+          <p className="descripcion">{itemSelect.descripcion}</p>
+          <div div className="contenedor-precio-botones">
+            <h5 className="precio">$ {itemSelect.precio}</h5>
+            <ItemCount />
+            <button className="boton-compra btn btn-danger" type="button">
+              comprar
+            </button>
+          </div>
         </div>
       </div>
     </>

@@ -36,9 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.seccionGaleria {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}

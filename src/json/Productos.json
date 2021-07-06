@@ -1,0 +1,99 @@
+[
+  {
+    "id": "1",
+    "nombre": "Gin Aconcagua",
+    "imagen": "https://i.ibb.co/PjW25vL/gin-aconcagua.png",
+    "precio": "1550",
+    "stock": 10,
+    "descripcion": "Gin Aconcagua 750 Ml Botella Handcrafted Fullescabio Oferta. Un Gin hecho a mano en Buenos Aires, Argentina. La esencia es extraída a partir de 7 botánicos: Bayas de Enebro, Cáscara de limón, Semillas de Coriandro, Raíz de Regaliz y Angélica, Almendra y Canela en Rama. Gracias a un meticuloso proceso de maceración y destilación en alambique de cobre se obtiene este Gin Aconcagua, ideal para servir bien frío acompañado de agua tónica en su versión tradicional"
+  },
+  {
+    "id": "2",
+    "nombre": "Gin Bosque Craft",
+    "imagen": "https://i.ibb.co/sC7HGQy/gin-bosque.png",
+    "precio": "1500",
+    "stock": 20,
+    "descripcion": "Bosque Craft es un gin artesanal argentino, producido y elaborado en la Patagonia por la famosa cervecería Temple. Por lo tanto, se trata de un producto cuidado, de calidad. Asimismo, tiene una infinidad de aromas que te van a  transportar a esos momentos en los que la cuarentena no existía en nuestras vidas. Mientras lo bebas, recordarás canciones que te gustan y seguramente te vendrán a la cabeza todos esos momentos al aire libre."
+  },
+  {
+    "id": "3",
+    "nombre": "Gin Black Prince",
+    "imagen": "https://i.ibb.co/1RnJXgP/gin-balckprince.png",
+    "precio": "1045",
+    "stock": 3,
+    "descripcion": "Con un sabor perfecto de botánicos, posee infusiones de vapor en cuatro destilaciones."
+  },
+  {
+    "id": "4",
+    "nombre": "Gin Hendrick´s Dry",
+    "imagen": "https://i.ibb.co/K5NyjgD/gin-hendricks.png",
+    "precio": "5750",
+    "stock": 15,
+    "descripcion": "Claro como elvcristal, vivaz. Aspecto ligeramente aceitoso al cuerpo. Más perfume que una ginebra regular. Rosa, pepino, hamamelis cilantro y casia, con cítricos y otros aromáticos añadiendo a la mezcla. Cuerpo medio a ligero, mezcla aromática de especias y aromas florales. Suave cosquilleo en los labios y final persistente con notas florales y cítricas, la suavidad de pepino es evidente."
+  },
+  {
+    "id": "5",
+    "nombre": "Gin Bulldog",
+    "imagen": "https://i.ibb.co/dB784NJ/gin-bulldog.png",
+    "precio": "1920",
+    "stock": 5,
+    "descripcion": "Entre los ingredientes de la Bulldog destaca la Amapola y el Ojo de Dragón, fáciles de detectar en su sabor. La Amapola tiene un sabor más familiar, parecido al de las semillas que encontramos en la parte superior de algunos tipos de pan, pero ¿ Y el Ojo de Dragón? Es una fruta original de China, parecida al Lychee y se ha utilizado desde tiempos ancestrales para estimular la vitalidad y la fuerza sexual."
+  },
+  {
+    "id": "6",
+    "nombre": "Gin Merle",
+    "imagen": "https://i.ibb.co/yq6ZFV8/gin-merle.png",
+    "precio": "845",
+    "stock": 11,
+    "descripcion": "Gin Merle se elabora a partir de la combinación de 12 botánicos cuidadosamente seleccionados. Tiene un carácter de enebro redondo, notas cítricas que le dan frescura y un complejo floral. Se caracteriza por su rica textura, levemente aceitosa, fresca y picante de cilantro. Un dulzor suave combinado con corteza de casia. Deja un sabor cítrico que perdura, con notas de enebro y una leve aparición de pimienta negra."
+  },
+  {
+    "id": "7",
+    "nombre": "Gin Bombay Sapphire",
+    "imagen": "https://i.ibb.co/GxpPNqN/gin-bombay.png",
+    "precio": "2139",
+    "stock": 2,
+    "descripcion": "Bombay Sapphire es una de las ginebras premium más populares del mercado, gracias a que ninguno de sus 10 botanicos destaca especialmente (enebro, almendras, granos del paraíso, ralladura de limón, regaliz, raíz de orris, angélica, cilantro, bayas de cassia y cubeba) haciendo que sea perfecta para cualquier coctel de Ginebra y para preparan un Gin tonic equilibrado y perfecto para todos los paladares."
+  },
+  {
+    "id": "8",
+    "nombre": "Gin Monkey 47",
+    "imagen": "https://i.ibb.co/w0m1xjJ/gin-monkey47.png",
+    "precio": "6390",
+    "stock": 8,
+    "descripcion": "Con la esencia pura y distintiva del enebro tiene una nota fuerte y fresca a cítricos, un aroma dulce y floral, un toque de pimienta, un sutil amargo de frutas y profunda y armoniosa complejidad. En su composición conjuga las tradiciones británicas, los sabores exóticos de India, la pureza de las hierbas nativas de la Selva Negra y la particularidad de ingredientes celosamente elegidos como enebros de Toscana y Croacia, lavanda de Francia y limones de Sicilia."
+  },
+  {
+    "id": "9",
+    "nombre": "Gin Heraclito & Macedonio",
+    "imagen": "https://i.ibb.co/0J7Lw5j/gin-macedonio.png",
+    "precio": "1140",
+    "stock": 10,
+    "descripcion": "Su composición cuenta con 12 botánicos de dominante enebro y notas florales, que le aportan un color rubí y armonizan las notas de cardamomo y coriandro que se desarrollan en la bebida."
+  },
+  {
+    "id": "10",
+    "nombre": "Gin Principe de los Apostoles",
+    "imagen": "https://i.ibb.co/P4GtDnY/gin-apostoles.png",
+    "precio": "1214",
+    "stock": 30,
+    "descripcion": "Destilado en partidas de 200 litros en alambique de cobre, Apóstoles es tan artesanal como puede serlo. Cada botánico se macera en una base de alcohol de cereal tridestilada de manera individual. Las maceraciones se filtran y mezclan siguiendo la fórmula original creada por Tato y se destila la partida. El resultado de la destilación es embotellado y numerado."
+  },
+  {
+    "id": "11",
+    "nombre": "Gin Gordon's",
+    "imagen": "https://i.ibb.co/PYd49mB/gin-gordons.png",
+    "precio": "787",
+    "stock": 10,
+    "descripcion": "La receta con la que se elabora Gordon's Gin data del año 1769, cuando un terrateniente de origen escocés llamado Alexander Gordon la creó y la empezó a utilizar en la destilería que fundó en el sur de Londres ese mismo año."
+  },
+
+  {
+    "id": "12",
+    "nombre": "Gin Brockmans Intensely Smooth",
+    "imagen": "https://i.ibb.co/tYNVLLB/gin-brockmans.png",
+    "precio": "7799",
+    "stock": 3,
+    "descripcion": "Brockmans es una ginebra totalmente única. Mientras que para los apasionados de esta bebida es una revelación, para los bebedores menos habituales de este destilado es un sabor inesperado. Se desmarca con orgullo del resto de ginebras que existen gracias a su exclusiva receta de exquisitos botánicos, y a su paciente proceso de maceración y destilación. "
+  }
+]

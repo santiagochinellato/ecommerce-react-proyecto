@@ -7,7 +7,7 @@ export const ItemCount = (props) => {
     if (valor < props.stock) {
       setValor(valor + 1);
     }
-    console.log(valor);
+    // console.log(valor);
   };
   const onSubstract = () => {
     if (valor > 1) {
@@ -16,7 +16,7 @@ export const ItemCount = (props) => {
       alert("la cantidad debe ser menor a 1");
     }
   };
-  console.log(valor);
+  // console.log(valor);
   return (
     <div>
       <button className="btn btn-danger botonMenos" onClick={onSubstract}>

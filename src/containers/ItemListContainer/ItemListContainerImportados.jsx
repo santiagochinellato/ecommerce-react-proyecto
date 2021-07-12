@@ -4,14 +4,18 @@ import ItemList from "../../components/ItemList/ItemList";
 import { useParams } from "react-router-dom";
 import productos from "../../json/Productos.json";
 
-const ItemListContainer = () => {
-  // const [productos, setProductos] = useState([]);
+const ItemListContainerImportados = () => {
+  console.log(productos);
+  const ProductosFiltrados = productos.filter(
+    (producto) => producto.categoria === "Importado"
+  );
+  console.log(ProductosFiltrados);
   const { id } = useParams();
 
   return (
     <section className=" row container-fluid  seccionGaleria">
-      <ItemList productos={productos} />
+      <ItemList productos={ProductosFiltrados} />
     </section>
   );
 };
-export default ItemListContainer;
+export default ItemListContainerImportados;

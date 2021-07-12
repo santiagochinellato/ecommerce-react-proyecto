@@ -1,0 +1,1 @@
+export const ENVIAR_A_CARRITO = "ENVIAR_A_CARRITO";

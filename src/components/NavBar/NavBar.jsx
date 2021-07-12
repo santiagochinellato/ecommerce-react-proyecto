@@ -1,53 +1,34 @@
 import React, { Fragment } from "react";
 import CartWidget from "../CartWidget/CartWidget";
 import "./NavBar.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 const NavBar = ({ cart }) => {
   return (
     <Fragment>
-      <nav className="navbar navbar-dark navbar-expand-lg navbar-light bg-dark">
-        <div className="container-fluid">
-          <a className="navbar-brand"></a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link to={"/"}>
-                  <a className="nav-link active" aria-current="page">
-                    Inicio
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to={"/productos"}>
-                  <a className="nav-link">Productos</a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link">carrito</a>
-              </li>
-            </ul>
+      <Navbar bg="light" expand="lg">
+        <Container>
+          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Link to={"/"}>Home</Link>
+              <Link to={"/productos"}>Productos</Link>
+              <NavDropdown title="Categoria" id="basic-nav-dropdown">
+                <Link to={"/importados"}>Importados</Link>
+                <Link to={"/nacionales"}>Nacionales</Link>
+              </NavDropdown>
+            </Nav>
             <div className="botoncarrito">
-              {/* <button type="button" className="btn btn-danger cartwidget">
-                cart
-                <span className="badge bg-dark contadorWidget">{contador}</span>
-              </button> */}
               <CartWidget cart={cart} />
             </div>
-          </div>
-        </div>
-      </nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </Fragment>
   );
 };

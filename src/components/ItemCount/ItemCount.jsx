@@ -1,10 +1,10 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export const ItemCount = (props) => {
-  const [valor, setValor] = useState(props.initial);
-
+  const {setCantidad, stock, initial}= props
+  const [valor, setValor] = useState(initial);
   const onAdd = () => {
-    if (valor < props.stock) {
+    if (valor < stock) {
       setValor(valor + 1);
     }
     // console.log(valor);
@@ -16,7 +16,9 @@ export const ItemCount = (props) => {
       alert("la cantidad debe ser menor a 1");
     }
   };
-  // console.log(valor);
+  useEffect(() => {
+    setCantidad(valor)
+}, [valor])
   return (
     <div>
       <button className="btn btn-danger botonMenos" onClick={onSubstract}>
